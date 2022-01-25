@@ -1,0 +1,52 @@
+.calculator {
+    width: 500px;
+    height: auto;
+    border: 3px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* display */
+
+.display {
+    height: 160px;
+    margin: 10px;
+    background-color: rgb(190, 190, 190);
+    border: 2px solid black;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: end;
+}
+
+
+/* Buttons */
+
+.buttons {
+    margin: 10px;
+}
+
+.buttons button {
+    width: 80px;
+    height: 80px;
+    font-size: 20px;
+}
+
+.line {
+    margin-bottom: 3px;
+}
+
+#minus, #divide {
+    margin-left: 12%;;
+}
+
+#equals {
+    margin-left: 47%;
+}
+
+#zero {
+    margin-left: 18%;
+}
+
